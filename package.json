@@ -68,9 +68,9 @@
     "jquery-validation": "^1.19.3",
     "lodash": "^4.17.21",
     "ngrok": "git+https://github.com/sakazuki/ngrok.git#startArgs",
-    "node-red": "^2.1.2",
+    "node-red": "^3.0.2",
     "node-red-debugger": "^1.1.1",
-    "node-red-nodegen": "0.1.1",
+    "node-red-nodegen": "0.2.4",
     "npm": "^8.1.1",
     "nrlint": "^1.0.2",
     "tmp": "^0.2.1"
