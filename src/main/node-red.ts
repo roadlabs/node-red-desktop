@@ -282,7 +282,7 @@ export class NodeREDApp {
     this.server.close();
     try {
       await RED.start();
-      this.server.listen(this.listenPort, this.listenIp, () => {
+      this.server.listen(this.listenPort, this.publicIp, () => {
         ipcMain.emit("browser:go", this.getAdminUrl());
       });
     } catch (err) {
