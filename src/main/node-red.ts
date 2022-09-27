@@ -35,6 +35,7 @@ export class NodeREDApp {
   private adminPath: string;
   private uiPath: string;
   private listenIp: string;
+  private publicIp: string;
   public listenPort: number;
   private status: AppStatus;
 
