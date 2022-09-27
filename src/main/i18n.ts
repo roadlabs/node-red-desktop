@@ -4,7 +4,7 @@ import path from "path";
 const locales = ["en-US", "zh-CN"];
 i18n.configure({
   locales: locales,
-  defaultLocale: "zh-CN",
+  defaultLocale: "en-US",
   directory: path.join(__dirname, "..", "locales"),
   objectNotation: true
 });
